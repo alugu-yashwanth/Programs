@@ -19,3 +19,10 @@ print(b.endswith("vsdvsdvsvsvsvsfv"),"\n")
 print(b.endswith("ing",5,11),"\n")
 # check for value between indexes
 
+c= "he is a very a good of the night man of the vampire rised in good sunny "
+print(c.find("very"),"\n")
+# to find a character in the string 
+print(c.find("yashwanth"),"\n")
+# for not finding give the value of -1
+print(c.index("yashwanth"),"\n")
+# does same work as find but if occurence of chareacter is not found it gives a Error
