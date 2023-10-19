@@ -24,5 +24,30 @@ print(c.find("very"),"\n")
 # to find a character in the string 
 print(c.find("yashwanth"),"\n")
 # for not finding give the value of -1
-print(c.index("yashwanth"),"\n")
+# print(c.index("yashwanth"),"\n")
 # does same work as find but if occurence of chareacter is not found it gives a Error
+
+d="yfweiuwvonwwiwe12454r3nndvsvjv43nsvnsfvnnsv"
+print(d.isalnum(),"\n")
+# from A-Z and a-z and 0-9
+d="yashwanthfifvsnvjnvnven"
+print(d.isalpha(),"\n")
+# from A-Z ad a-z 
+print(d.islower(),"\n")
+# tells if a string is lower or not
+print(d.isprintable(),"\n")
+# tells if the given string is printable or not and always escape characters are not prntable
+print(d.isspace(),'\n')
+# returns true when a string has white spaces
+
+e="he is a king of forest but dont know anything so very poor"
+print(e.istitle(),'\n')
+# tells if each word in a string has first letter as capital or not
+print(e.isupper(),'\n')
+# tells if each word in a string is in upper case or not
+print(e.startswith('he'),'\n')
+# gives true if a string starts with given string
+print(e.swapcase(),'\n')
+# swap case fro each character in a string 
+print(e.title(),'\n')
+# converts a f=given string into title case which is when each wordhas first letter as capital
