@@ -1,12 +1,12 @@
-# x=input("Enter ny string: ")
-# for i in x:
-#     print(i, end=", ")
+x=input("Enter ny string: ")
+for i in x:
+    print(i, end=", ")
 
-# List=['Orange', 'Apple', 'Banana', 'Melon', 'Kiwi']
-# for fruit in List:
-#     print("\n",fruit)
-#     for i in fruit:
-#         print(i, end= ", ")
+List=['Orange', 'Apple', 'Banana', 'Melon', 'Kiwi']
+for fruit in List:
+    print("\n",fruit)
+    for i in fruit:
+        print(i, end= ", ")
 
 for i in range(3,15,2):
     print(i)
